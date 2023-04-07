@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.userDetails {
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid;
+    width: 70%;
+    padding: 15px 5px;
+}
+
+input, .Edit, .Delete {
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    color: dodgerblue;
+    outline: none;
+    border: 1px solid dodgerblue;
+    text-decoration-color: dodgerblue;
+    background-color: white;
+}
+
+::placeholder {
+    color: dodgerblue;
+    opacity: 0.4;
+}
+
+input:hover {
+    box-shadow: 0 0 10px dodgerblue;
+}
+
+.btn{
+    width: 120px;
+}
+
+.submit:hover, .Edit:hover {
+    box-shadow: 0 0 10px dodgerblue;
+    font-weight: 900;
+}
+
+.clear, .Delete {
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+.clear:hover, .Delete:hover{
+    box-shadow: 0 0 10px crimson;
+    font-weight: 900;
+}
+
+.dataTable {
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr, td, th {
+    border: 1px solid;
+    padding: 10px 5px;
+    height: 50px;
+}
+
+td {
+    width: 15%;
+}
+
+.tablebtn{
+    width: 100px;
+    margin: 0px;
+    padding: 0px;    
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+th {
+  background-color: dodgerblue;
+  color: white;
+  border: 1px solid black;
+}
